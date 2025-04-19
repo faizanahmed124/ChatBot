@@ -11,7 +11,7 @@ function App() {
   
   // Initialize Google Gemini
   // Get your API key from https://aistudio.google.com/
-  const genAI = new GoogleGenerativeAI("AIzaSyAYGQbT4iUWXDBXG4MSq5IJQqDI-4Xj8r4"); // Replace with your actual key
+  const genAI = new GoogleGenerativeAI("Please Enter Your API Key here "); // Replace with your actual key
   const model = genAI.getGenerativeModel({ model: "gemini-pro" });
 
   const handleSubmit = async (e) => {
